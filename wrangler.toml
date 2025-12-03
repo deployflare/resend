@@ -1,4 +1,4 @@
-name = "workertemplate"
+name = "resend"
 main = "index.js"
 compatibility_date = "2025-09-09"
 # compatibility_flags = []
