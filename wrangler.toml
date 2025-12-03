@@ -1,0 +1,44 @@
+name = "workertemplate"
+main = "index.js"
+compatibility_date = "2025-09-09"
+# compatibility_flags = []
+# node_compat = true
+# keep_vars = true
+
+# [triggers]
+# crons = ["*/5 * * * *"]
+
+# [vars]
+
+# [assets]
+# directory = "./public"
+# binding = "ASSETS"
+
+# [wasm_modules]
+# WASM_PARSER = "./wasm/parser.wasm"
+
+# [text_blobs]
+# EMAIL_TEMPLATE = "./templates/welcome.txt"
+
+# [data_blobs]
+# BINARY_CHUNK = "./assets/blob.bin"
+
+# [[kv_namespaces]]
+# binding = "MY_KV"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-db"
+# database_id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [durable_objects]
+# bindings = [{ name = "MY_DO", class_name = "MyDurableObject" }]
+
+# [[migrations]]
+# tag = "v1"
+# new_classes = ["MyDurableObject"]
